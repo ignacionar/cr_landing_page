@@ -33,7 +33,7 @@ const StyledSection = styled.h2`
   color: white;
   animation: 2s forwards ${Up};
   @media only screen and (max-width: 600px) {
-    font-size: 12px;
+    font-size: 10px;
   }
 `;
 

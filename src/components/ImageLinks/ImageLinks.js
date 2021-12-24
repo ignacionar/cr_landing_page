@@ -46,7 +46,7 @@ const StyledCircle = styled.div`
 `;
 
 const StyledLinkSquare = styled.div`
-  width: 150px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,19 +65,20 @@ const StyledLinkText = styled.h3`
 `;
 
 const StyledImagesGrid = styled.div`
-  width: 800px;
+  width: 1000px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   grid-row-gap: 30px;
   text-align: center;
+  align-items: center;
   position: relative;
   bottom: 350px;
   overflow: none;
   @media only screen and (max-width: 600px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 500px;
+    width: 300px;
     padding: 20px;
     overflow: auto;
     position: fixed;
@@ -99,7 +100,7 @@ const ImageLinks = () => {
         </Link>
         <Link to={'/'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
-            <StyledCircle style={{outline: '#00499d 3px solid'}}>
+            <StyledCircle style={{border: '#00499d 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faPencilAlt} style={{color: '#00499d'}}/></StyledIcon>
             </StyledCircle>
               <StyledLinkText>Nivel Primario</StyledLinkText>
@@ -107,7 +108,7 @@ const ImageLinks = () => {
         </Link>
         <Link to={'/'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
-            <StyledCircle style={{outline: '#4c0013 3px solid'}}>
+            <StyledCircle style={{border: '#4c0013 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faGraduationCap} style={{color: '#4c0013'}}/></StyledIcon>
             </StyledCircle>
               <StyledLinkText>Nivel Secundario</StyledLinkText>
@@ -115,7 +116,7 @@ const ImageLinks = () => {
         </Link>
         <Link to={'/'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
-            <StyledCircle style={{outline: '#008f39 3px solid'}}>
+            <StyledCircle style={{border: '#008f39 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faListOl} style={{color: '#008f39'}}/></StyledIcon>
             </StyledCircle>
               <StyledLinkText>Consultas Alumnos</StyledLinkText>
@@ -123,7 +124,7 @@ const ImageLinks = () => {
         </Link>
         <Link to={'/'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
-            <StyledCircle style={{outline: '#ff8000 3px solid'}}>
+            <StyledCircle style={{border: '#ff8000 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faChalkboardTeacher} style={{color: '#ff8000'}}/></StyledIcon>
             </StyledCircle>
               <StyledLinkText>Docentes</StyledLinkText>
@@ -137,7 +138,7 @@ const ImageLinks = () => {
         </Link>
         <Link to={'/'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
-            <StyledCircle style={{outline: '#6600a1 3px solid'}}>
+            <StyledCircle style={{border: '#6600a1 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faAddressBook} style={{color: '#6600a1'}}/></StyledIcon>
             </StyledCircle>
               <StyledLinkText>Inscripciones</StyledLinkText>
@@ -145,7 +146,7 @@ const ImageLinks = () => {
         </Link>
         <Link to={'/'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
-            <StyledCircle  style={{outline: '#c81d11 3px solid'}}>
+            <StyledCircle  style={{border: '#c81d11 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faClipboard} style={{color: '#c81d11'}}/></StyledIcon>
             </StyledCircle>
               <StyledLinkText>Administración</StyledLinkText>
@@ -153,7 +154,7 @@ const ImageLinks = () => {
         </Link>
         <Link to={'/'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
-            <StyledCircle style={{outline: '#00a6d6 3px solid'}}>
+            <StyledCircle style={{border: '#00a6d6 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faPaperclip} style={{color: '#00a6d6'}}/></StyledIcon>
             </StyledCircle>
               <StyledLinkText>Contacto</StyledLinkText>

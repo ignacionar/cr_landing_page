@@ -25,7 +25,7 @@ const StyledHeader = styled.header`
   z-index: 3;
   @media only screen and (max-width: 600px) {
     grid-template-columns: 100px 1fr;
-    max-height: 60px;
+    max-height: 65px;
   }
 `;
 
