@@ -52,7 +52,7 @@ const StyledLinkSquare = styled.div`
   align-items: center;
   animation: ${FadeIn} 3s;
   @media only screen and (max-width: 600px) {
-    width: 150px;
+    width: 153px;
   }
 `;
 
@@ -69,7 +69,7 @@ const StyledImagesGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  grid-row-gap: 30px;
+  grid-row-gap: 20px;
   text-align: center;
   align-items: center;
   position: relative;
@@ -83,7 +83,7 @@ const StyledImagesGrid = styled.div`
     overflow: auto;
     position: fixed;
     bottom: 30px;
-    grid-gap: 16px;
+    grid-gap: 5px;
     align-items: center;
 }
 `;
