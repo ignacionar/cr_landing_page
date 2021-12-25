@@ -7,22 +7,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressBook, faClipboard, faListOl, faPaperclip, faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { faChalkboardTeacher } from '@fortawesome/free-solid-svg-icons';
-
-const FadeIn = keyframes`
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-`;
+import { FadeIn } from './../../styles/utils/FadeIn';
 
 const GoUp = keyframes`
   0% {
     transform: translateY(0%);
   }
   100% {
-    transform: translateY(-10%);
+    transform: translateY(-5%);
   }
 `;
 
@@ -119,7 +111,7 @@ const ImageLinks = () => {
               <StyledLinkText>Nivel Primario</StyledLinkText>
             </StyledLinkSquare>
         </Link>
-        <Link to={'/'} style={{textDecoration: 'none'}}>
+        <Link to={'/nivel-secundario'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
             <StyledCircle style={{border: '#4c0013 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faGraduationCap} style={{color: '#4c0013'}}/></StyledIcon>
