@@ -18,11 +18,11 @@ const FadeIn = keyframes`
 `;
 
 const GoUp = keyframes`
-  from {
-    translateY(0%);
+  0% {
+    transform: translateY(0%);
   }
-  to {
-    translateY(20%);
+  100% {
+    transform: translateY(-10%);
   }
 `;
 
@@ -59,12 +59,12 @@ const StyledLinkSquare = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: ${FadeIn} 3s;
+  &:hover {
+    animation: ${GoUp} 1s forwards;
+    text-decoration: underline white 2px;
+  }
   @media only screen and (max-width: 600px) {
     width: 153px;
-  }
-  &:hover {
-    animation: ${GoUp} 2s;
   }
 `;
 
@@ -84,6 +84,7 @@ const StyledImagesGrid = styled.div`
   grid-row-gap: 20px;
   text-align: center;
   align-items: center;
+  animation: ${FadeIn} 3s;
   position: relative;
   bottom: 350px;
   overflow: none;

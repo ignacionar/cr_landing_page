@@ -42,7 +42,7 @@ const StyledTitle = styled.h1`
   color: white;
   animation: ${Left} 2s forwards;
   @media only screen and (max-width: 600px) {
-    font-size: 16px;
+    font-size: 15px;
   }
 `;
 
