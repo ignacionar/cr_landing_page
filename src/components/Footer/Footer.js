@@ -3,11 +3,11 @@ import styled, {keyframes} from 'styled-components';
 
 const Up = keyframes`
   0% {
-    margin-top: 50%;
+    transform: translateY(150%);
   }
 
   100% {
-    margin-top: 0%;
+    transform: translateY(0%);
   }
 `
 

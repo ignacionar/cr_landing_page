@@ -4,11 +4,11 @@ import Logo from '../../assets/Encabezado.png';
 
 const Left = keyframes`
   0% {
-    margin-left: 100%;
+    transform: translateX(100%);
   }
 
   100% {
-    margin-left: 0%;
+    transform: translateX(0%);
   }
 `
 
