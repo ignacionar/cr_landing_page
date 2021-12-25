@@ -17,6 +17,15 @@ const FadeIn = keyframes`
   }
 `;
 
+const GoUp = keyframes`
+  from {
+    translateY(0%);
+  }
+  to {
+    translateY(20%);
+  }
+`;
+
 const StyledCircleImage = styled.img`
   width: 100px;
   @media only screen and (max-width: 600px) {
@@ -53,6 +62,9 @@ const StyledLinkSquare = styled.div`
   animation: ${FadeIn} 3s;
   @media only screen and (max-width: 600px) {
     width: 153px;
+  }
+  &:hover {
+    animation: ${GoUp} 2s;
   }
 `;
 
