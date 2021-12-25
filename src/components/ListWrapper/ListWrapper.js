@@ -13,7 +13,7 @@ export const StyledListWrapper = styled.div`
   border-radius: 15px;
   animation: ${FadeIn} 2s;
   @media only screen and (max-width: 600px) {
-    top: 160px;
+    top: 135px;
     width: 90%;
     text-align: center;
   }
