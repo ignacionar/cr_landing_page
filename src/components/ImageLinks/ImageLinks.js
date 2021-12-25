@@ -149,7 +149,7 @@ const ImageLinks = () => {
               <StyledLinkText>Inscripciones</StyledLinkText>
             </StyledLinkSquare>
         </Link>
-        <Link to={'/'} style={{textDecoration: 'none'}}>
+        <Link to={'/administracion'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
             <StyledCircle  style={{border: '#c81d11 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faClipboard} style={{color: '#c81d11'}}/></StyledIcon>

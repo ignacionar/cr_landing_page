@@ -8,6 +8,7 @@ import NivelInicial from './pages/NivelInicial';
 import Docentes from './pages/Docentes';
 import Pastoral from './pages/Pastoral';
 import Inscripciones from './pages/Inscripciones';
+import Administracion from './pages/Administracion';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path={'/docentes'} element={<Docentes/>}/>
         <Route exact path={'/pastoral'} element={<Pastoral/>}/>
         <Route exact path={'/inscripciones'} element={<Inscripciones/>}/>
+        <Route exact path={'/administracion'} element={<Administracion/>}/>
       </Routes>
     </Router>
   );
