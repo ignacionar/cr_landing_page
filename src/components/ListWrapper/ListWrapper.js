@@ -51,6 +51,20 @@ export const StyledLink = styled.a`
   }
 `;
 
+export const StyledEmail = styled.a`
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bolder;
+  font-size: 12px;
+  &:hover {
+    color: #0f60d1;
+    text-decoration: underline;
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: 10px;
+  }
+`;
+
 export const StyledSubTitle = styled.h3`
   text-decoration: underline;
   padding-bottom: 0.5rem;
