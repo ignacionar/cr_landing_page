@@ -31,7 +31,6 @@ const StyledHeader = styled.header`
 
 const StyledHeaderImg = styled.img`
   width: 75%;
-  margin: 0 8%;
   position: relative;
   z-index: 1;
 `;
@@ -42,14 +41,14 @@ const StyledTitle = styled.h1`
   color: white;
   animation: ${Left} 2s forwards;
   @media only screen and (max-width: 600px) {
-    font-size: 15px;
+    font-size: 0.65rem;
   }
 `;
 
 const Header = () => {
   return (
     <StyledHeader>
-      <Link to={'/'}  style={{marginLeft: '20px'}}>
+      <Link to={'/'}  style={{marginLeft: '0.7rem'}}>
         <StyledHeaderImg src={Logo}/>
       </Link>
       <StyledTitle>INSTITUTO PARROQUIAL CRISTO REDENTOR</StyledTitle>
