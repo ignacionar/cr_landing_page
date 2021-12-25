@@ -9,6 +9,7 @@ import Docentes from './pages/Docentes';
 import Pastoral from './pages/Pastoral';
 import Inscripciones from './pages/Inscripciones';
 import Administracion from './pages/Administracion';
+import Contacto from './pages/Contacto';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route exact path={'/pastoral'} element={<Pastoral/>}/>
         <Route exact path={'/inscripciones'} element={<Inscripciones/>}/>
         <Route exact path={'/administracion'} element={<Administracion/>}/>
+        <Route exact path={'/contacto'} element={<Contacto/>}/>
       </Routes>
     </Router>
   );

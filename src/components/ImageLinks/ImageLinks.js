@@ -157,7 +157,7 @@ const ImageLinks = () => {
               <StyledLinkText>Administración</StyledLinkText>
             </StyledLinkSquare>
         </Link>
-        <Link to={'/'} style={{textDecoration: 'none'}}>
+        <Link to={'/contacto'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
             <StyledCircle style={{border: '#00a6d6 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faPaperclip} style={{color: '#00a6d6'}}/></StyledIcon>

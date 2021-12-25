@@ -12,8 +12,10 @@ export const StyledListWrapper = styled.div`
   background-color: #fff;
   border-radius: 15px;
   animation: ${FadeIn} 2s;
+  max-height: 350px;
+  overflow: auto;
   @media only screen and (max-width: 600px) {
-    top: 135px;
+    top: 120px;
     width: 90%;
     text-align: center;
   }
@@ -58,5 +60,7 @@ export const StyledSubTitle = styled.h3`
 
 export const StyledRow = styled.hr`
   border: 1px solid grey;
-  margin-bottom: 1rem;
+  width: 75%;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 `;
