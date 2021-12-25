@@ -27,14 +27,13 @@ export const StyledTitle = styled.h1`
 
 
 export const StyledList = styled.ul`
-  list-style-type: none;
   background-color: #fff;
   padding: 0;
   padding-bottom: 1rem;
 `;
 
 export const StyledListItem = styled.li`
-  margin-top: 2rem;
+  margin: 1rem 0;
   font-size: 0.9rem;
 `;
 
@@ -46,4 +45,15 @@ export const StyledLink = styled.a`
     color: #0f60d1;
     text-decoration: underline;
   }
+`;
+
+export const StyledSubTitle = styled.h3`
+  text-decoration: underline;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+`;
+
+export const StyledRow = styled.hr`
+  border: 1px solid grey;
 `;

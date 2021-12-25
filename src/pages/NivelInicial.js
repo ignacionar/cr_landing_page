@@ -4,17 +4,17 @@ import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import { StyledListWrapper, StyledTitle } from '../components/ListWrapper/ListWrapper';
 
-const NivelPrimario = () => {
+const NivelInicial = () => {
   return (
     <>
       <Header/>
       <BackgroundImage/>
       <StyledListWrapper>
-        <StyledTitle>NIVEL PRIMARIO</StyledTitle>
+        <StyledTitle>NIVEL INICIAL</StyledTitle>
       </StyledListWrapper>
       <Footer/>
     </>
   )
 }
 
-export default NivelPrimario;
+export default NivelInicial;

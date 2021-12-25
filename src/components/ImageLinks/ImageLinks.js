@@ -97,13 +97,13 @@ const ImageLinks = () => {
   return (
    
       <StyledImagesGrid>
-        <Link to={'/'} style={{textDecoration: 'none'}}>
+        <Link to={'/nivel-inicial'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
               <StyledCircleImage src={NivelInicial} alt=""  />
               <StyledLinkText>Nivel Inicial</StyledLinkText>
             </StyledLinkSquare>
         </Link>
-        <Link to={'/'} style={{textDecoration: 'none'}}>
+        <Link to={'/nivel-primario'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
             <StyledCircle style={{border: '#00499d 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faPencilAlt} style={{color: '#00499d'}}/></StyledIcon>
@@ -119,15 +119,15 @@ const ImageLinks = () => {
               <StyledLinkText>Nivel Secundario</StyledLinkText>
             </StyledLinkSquare>
         </Link>
-        <Link to={'/'} style={{textDecoration: 'none'}}>
+        <Link to={'/consulta-alumnos'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
             <StyledCircle style={{border: '#008f39 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faListOl} style={{color: '#008f39'}}/></StyledIcon>
             </StyledCircle>
-              <StyledLinkText>Consultas Alumnos</StyledLinkText>
+              <StyledLinkText>Consulta Alumnos</StyledLinkText>
             </StyledLinkSquare>
         </Link>
-        <Link to={'/'} style={{textDecoration: 'none'}}>
+        <Link to={'/docentes'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
             <StyledCircle style={{border: '#ff8000 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faChalkboardTeacher} style={{color: '#ff8000'}}/></StyledIcon>
@@ -135,13 +135,13 @@ const ImageLinks = () => {
               <StyledLinkText>Docentes</StyledLinkText>
             </StyledLinkSquare>
         </Link>
-        <Link to={'/'} style={{textDecoration: 'none'}}>
+        <Link to={'/pastoral'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
               <StyledCircleImage src={Pastoral} alt=""  />
               <StyledLinkText>Pastoral</StyledLinkText>
             </StyledLinkSquare>
         </Link>
-        <Link to={'/'} style={{textDecoration: 'none'}}>
+        <Link to={'/inscripciones'} style={{textDecoration: 'none'}}>
           <StyledLinkSquare>
             <StyledCircle style={{border: '#6600a1 3px solid'}}>
               <StyledIcon><FontAwesomeIcon icon={faAddressBook} style={{color: '#6600a1'}}/></StyledIcon>

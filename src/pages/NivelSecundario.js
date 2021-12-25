@@ -23,4 +23,4 @@ const NivelSecundario = () => {
   )
 }
 
-export default NivelSecundario
+export default NivelSecundario;
