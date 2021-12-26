@@ -27,6 +27,9 @@ const StyledFooter = styled.footer`
     bottom: 0;
     position: fixed;
   }
+  @media only screen and (min-height: 700px) and (max-width: 600px) {
+    height: 50px;
+  }
 `;
 
 const StyledSection = styled.h2`

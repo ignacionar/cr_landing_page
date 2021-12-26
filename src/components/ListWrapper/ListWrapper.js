@@ -18,6 +18,7 @@ export const StyledListWrapper = styled.div`
     top: 120px;
     width: 90%;
     text-align: center;
+    
   }
 `;
 

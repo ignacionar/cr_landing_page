@@ -43,6 +43,9 @@ const StyledTitle = styled.h1`
   @media only screen and (max-width: 600px) {
     font-size: 0.65rem;
   }
+  @media only screen and (min-height: 700px) and (max-width: 600px) {
+    font-size: 0.8rem;
+  }
 `;
 
 const Header = () => {

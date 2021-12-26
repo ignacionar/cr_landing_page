@@ -27,7 +27,7 @@ const Contacto = () => {
           <StyledListItem><StyledEmail href="mailto:jrossi@escuelacristoredentor.edu.ar">secretaria.inicialyprimario@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
         </StyledList>
         <StyledList style={{listStyleType: 'none', paddingBottom: '0'}}>
-          <StyledListItem>Secretría:</StyledListItem>
+          <StyledListItem>Secretaría:</StyledListItem>
           <StyledListItem><StyledEmail href="mailto:secretariasecundaria@escuelacristoredentor.edu.ar">secretaria.inicialyprimario@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
         </StyledList>
         <StyledList style={{listStyleType: 'none', paddingBottom: '0'}}>

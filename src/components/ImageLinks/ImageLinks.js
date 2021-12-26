@@ -85,12 +85,16 @@ const StyledImagesGrid = styled.div`
     grid-template-columns: 1fr 1fr;
     width: 300px;
     padding: 20px;
-    overflow: auto;
     position: fixed;
     bottom: 30px;
     grid-gap: 5px;
     align-items: center;
-}
+    @media only screen and (min-height: 700px) and (max-width: 600px) {
+    bottom: 50px;
+    width: 360px;
+    grid-gap: 2rem;
+  }
+  }
 `;
 
 const ImageLinks = () => {
