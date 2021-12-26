@@ -20,28 +20,28 @@ const Contacto = () => {
         <StyledSubTitle>NIVEL SECUNDARIO</StyledSubTitle>
         <StyledList style={{listStyleType: 'none', paddingBottom: '0'}}>
           <StyledListItem>Directora de Secundario: Lic. Carolina S. Micieli:</StyledListItem>
-          <StyledListItem><StyledEmail href="mailto:cmicieli@escuelacristoredentor.edu.ar">secretaria.inicialyprimario@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
+          <StyledListItem><StyledEmail href="mailto:cmicieli@escuelacristoredentor.edu.ar">cmicieli@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
         </StyledList>
         <StyledList style={{listStyleType: 'none', paddingBottom: '0'}}>
           <StyledListItem>Coordinadora de Curso: Lic. Jessica F. Rossi:</StyledListItem>
-          <StyledListItem><StyledEmail href="mailto:jrossi@escuelacristoredentor.edu.ar">secretaria.inicialyprimario@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
+          <StyledListItem><StyledEmail href="mailto:jrossi@escuelacristoredentor.edu.ar">jrossi@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
         </StyledList>
         <StyledList style={{listStyleType: 'none', paddingBottom: '0'}}>
           <StyledListItem>Secretaría:</StyledListItem>
-          <StyledListItem><StyledEmail href="mailto:secretariasecundaria@escuelacristoredentor.edu.ar">secretaria.inicialyprimario@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
+          <StyledListItem><StyledEmail href="mailto:secretariasecundaria@escuelacristoredentor.edu.ar">secretariasecundaria@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
         </StyledList>
         <StyledList style={{listStyleType: 'none', paddingBottom: '0'}}>
           <StyledListItem>Preceptoría:</StyledListItem>
-          <StyledListItem><StyledEmail href="mailto:preceptoria@escuelacristoredentor.edu.ar">secretaria.inicialyprimario@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
+          <StyledListItem><StyledEmail href="mailto:preceptoria@escuelacristoredentor.edu.ar">preceptoria@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
         </StyledList>
         <StyledList style={{listStyleType: 'none', paddingBottom: '0'}}>
           <StyledListItem>Equipo de Orientación:</StyledListItem>
-          <StyledListItem style={{marginBottom: '0'}}><StyledEmail href="mailto:orientacionsecundario@escuelacristoredentor.edu.ar">secretaria.inicialyprimario@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
+          <StyledListItem style={{marginBottom: '0'}}><StyledEmail href="mailto:orientacionsecundario@escuelacristoredentor.edu.ar">orientacionsecundario@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
         </StyledList>
         <StyledRow/>
         <StyledSubTitle>ADMINISTRACIÓN</StyledSubTitle>
         <StyledList style={{listStyleType: 'none', paddingBottom: '0'}}>
-          <StyledListItem><StyledEmail href="mailto:administracion@escuelacristoredentor.edu.ar">secretaria.inicialyprimario@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
+          <StyledListItem><StyledEmail href="mailto:administracion@escuelacristoredentor.edu.ar">administracion@escuelacristoredentor.edu.ar</StyledEmail></StyledListItem>
         </StyledList>
       </StyledListWrapper>
       <Footer/>
