@@ -89,10 +89,11 @@ const StyledImagesGrid = styled.div`
     bottom: 30px;
     grid-gap: 5px;
     align-items: center;
-    @media only screen and (min-height: 700px) and (max-width: 600px) {
+    @media only screen and (min-height: 600px) and (max-width: 600px) {
     bottom: 50px;
     width: 360px;
     grid-gap: 2rem;
+    height: 80%;
   }
   }
 `;

@@ -23,7 +23,7 @@ export const BackgroundImage = styled.div`
     position: fixed;
     background-position: center;
   }
-  @media only screen and (min-height: 700px) and (max-width: 600px) {
+  @media only screen and (min-height: 600px) and (max-width: 600px) {
     height: 100%;
   }
 `;
