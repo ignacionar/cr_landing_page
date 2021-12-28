@@ -91,7 +91,7 @@ const StyledImagesGrid = styled.div`
     align-items: center;
     @media only screen and (min-height: 600px) and (max-width: 600px) {
     bottom: 50px;
-    width: 360px;
+    width: 90%;
     grid-gap: 2rem;
     height: 80%;
   }
