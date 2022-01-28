@@ -20,7 +20,7 @@ const GoUp = keyframes`
 
 const StyledCircleImage = styled.img`
   width: 100px;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1000px) {
     width: 60px;
   }
 `;
@@ -28,7 +28,7 @@ const StyledCircleImage = styled.img`
 const StyledIcon = styled.p`
   color: black;
   font-size: 60px;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1000px) {
     font-size: 20px;
   }
 `;
@@ -40,7 +40,7 @@ const StyledCircle = styled.div`
   height: 100px;
   display: flex;
   align-items: center;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1000px) {
     width: 50px;
     height: 50px;
   }
@@ -55,7 +55,7 @@ const StyledLinkSquare = styled.div`
     animation: ${GoUp} 1s forwards;
     text-decoration: underline white 2px;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1000px) {
     width: 153px;
   }
 `;
@@ -63,7 +63,7 @@ const StyledLinkSquare = styled.div`
 const StyledLinkText = styled.h3`
   color: white;
   text-shadow: 1px 1px 6px black;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1000px) {
     font-size: 15px;
   }
 `;
@@ -77,24 +77,21 @@ const StyledImagesGrid = styled.div`
   text-align: center;
   align-items: center;
   animation: ${FadeIn} 3s;
-  position: relative;
-  bottom: 350px;
   overflow: none;
-  @media only screen and (max-width: 600px) {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  @media only screen and (max-width: 1000px) {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 300px;
+    width: 80%;
+    left: 0;
     padding: 20px;
-    position: fixed;
-    bottom: 30px;
+    height: 550px;
+    top: 60px;
     grid-gap: 5px;
     align-items: center;
-    @media only screen and (min-height: 600px) and (max-width: 600px) {
-    bottom: 50px;
-    width: 90%;
-    grid-gap: 2rem;
-    height: 80%;
-  }
   }
 `;
 

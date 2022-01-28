@@ -19,11 +19,9 @@ export const BackgroundImage = styled.div`
   animation: ${Blur} forwards 3s;
   z-index: 0;
   position: relative;
-  @media only screen and (max-width: 600px) { 
+  @media only screen and (max-width: 1000px) { 
     position: fixed;
     background-position: center;
-  }
-  @media only screen and (min-height: 600px) and (max-width: 600px) {
     height: 100%;
   }
 `;

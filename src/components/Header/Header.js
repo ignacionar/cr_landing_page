@@ -23,7 +23,7 @@ const StyledHeader = styled.header`
   text-align: center;
   position: fixed;
   z-index: 3;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1000px) {
     grid-template-columns: 100px 1fr;
     max-height: 65px;
   }
@@ -40,11 +40,8 @@ const StyledTitle = styled.h1`
   position: relative;
   color: white;
   animation: ${Left} 2s forwards;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1000px) {
     font-size: 0.65rem;
-  }
-  @media only screen and (min-height: 700px) and (max-width: 600px) {
-    font-size: 0.8rem;
   }
 `;
 

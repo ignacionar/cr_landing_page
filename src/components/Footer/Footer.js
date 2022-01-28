@@ -21,21 +21,18 @@ const StyledFooter = styled.footer`
   align-items: center;
   bottom: 0;
   position: fixed;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1000px) {
     height: 30px;
     border-top: 4px solid #D8B06D;
     bottom: 0;
     position: fixed;
-  }
-  @media only screen and (min-height: 700px) and (max-width: 600px) {
-    height: 50px;
   }
 `;
 
 const StyledSection = styled.h2`
   color: white;
   animation: 2s forwards ${Up};
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1000px) {
     font-size: 10px;
   }
 `;
