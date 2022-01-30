@@ -19,6 +19,10 @@ export const StyledListWrapper = styled.div`
     text-align: center;
     left: 4%;
   }
+  @media only screen and (max-height: 500px) {
+    margin-top: 5px;
+    height: 250px;
+  }
 `;
 
 export const StyledTitle = styled.h1`

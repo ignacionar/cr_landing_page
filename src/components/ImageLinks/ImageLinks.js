@@ -93,6 +93,10 @@ const StyledImagesGrid = styled.div`
     grid-gap: 5px;
     align-items: center;
   }
+  @media only screen and (max-height: 500px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 300px;
+  }
 `;
 
 const ImageLinks = () => {
