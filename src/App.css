@@ -16,3 +16,9 @@ html, body {
     overflow: auto;
   }
 }
+
+@media only screen and (max-height: 500px) {
+  body {
+    overflow: auto;
+  }
+}
