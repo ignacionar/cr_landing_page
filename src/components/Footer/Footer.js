@@ -28,7 +28,7 @@ const StyledFooter = styled.footer`
     position: fixed;
   }
   @media only screen and (max-height: 500px) {
-    visibility: hidden;
+    display: none;
   }
 `;
 
