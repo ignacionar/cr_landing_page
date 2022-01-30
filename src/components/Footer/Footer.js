@@ -27,6 +27,9 @@ const StyledFooter = styled.footer`
     bottom: 0;
     position: fixed;
   }
+  @media only screen and (max-height: 500px) {
+    display: hidden;
+  }
 `;
 
 const StyledSection = styled.h2`

@@ -17,7 +17,7 @@ export const StyledListWrapper = styled.div`
   @media only screen and (max-width: 1000px) {
     width: 90%;
     text-align: center;
-    left: 4.5%;
+    left: 4%;
   }
 `;
 
