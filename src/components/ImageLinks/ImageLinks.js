@@ -80,22 +80,31 @@ const StyledImagesGrid = styled.div`
   overflow: none;
   position: absolute;
   bottom: 20%;
-  left: 5%;
+  left: 0;
+  right: 0;
   @media only screen and (max-width: 1000px) {
-    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 80%;
-    left: 0;
+    left: 0; 
+    right: 0; 
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
     padding: 20px;
     height: 550px;
-    top: 60px;
     grid-gap: 5px;
     align-items: center;
   }
   @media only screen and (max-height: 500px) {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    height: 300px;
+    height: 60%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 0;
+    grid-gap: 0;
   }
 `;
 
