@@ -90,9 +90,9 @@ const StyledImagesGrid = styled.div`
     right: 0; 
     top: 0;
     bottom: 0;
-    margin: auto auto;
+    margin: auto 0;
     padding: 20px;
-    height: 430px;
+    height: 400px;
     grid-gap: 5px;
     align-items: center;
   }
@@ -101,8 +101,9 @@ const StyledImagesGrid = styled.div`
     height: 60%;
     width: 100%;
     top: 0;
+    margin: 0;
     bottom: 0;
-    margin: auto;
+    margin-top: auto;
     padding: 0;
     grid-gap: 0;
   }

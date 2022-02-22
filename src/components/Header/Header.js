@@ -27,19 +27,14 @@ const StyledHeader = styled.header`
     grid-template-columns: 100px 1fr;
     max-height: 65px;
   }
-  @media only screen and (max-height: 500px) {
-    max-height: 50px;
-    border-bottom: 4px solid #D8B06D;
-  }
+  
 `;
 
 const StyledHeaderImg = styled.img`
   width: 75%;
   position: relative;
   z-index: 1;
-  @media only screen and (max-height: 500px) {
-    width: 60%;
-  }
+  
 `;
 
 const StyledTitle = styled.h1`
