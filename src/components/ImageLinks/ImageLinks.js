@@ -92,7 +92,7 @@ const StyledImagesGrid = styled.div`
     bottom: 0;
     margin: auto auto;
     padding: 20px;
-    height: 550px;
+    height: 430px;
     grid-gap: 5px;
     align-items: center;
   }
